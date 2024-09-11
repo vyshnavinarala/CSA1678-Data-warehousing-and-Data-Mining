@@ -1,0 +1,5 @@
+ages<-c(12,17,34,56,32,23,83,31,9,36)
+q1 <- quantile (ages, 0.25) 
+q3 <- quantile (ages, 0.75)
+cat ("First Quartile (Q1):", q1, "\n")
+cat("Third Quartile (Q3):", q3, "\n")
